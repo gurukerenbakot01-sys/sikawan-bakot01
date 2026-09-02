@@ -1,0 +1,6 @@
+{
+  "name": "Laporan Sikawan SD Negeri Babelan Kota 01",
+  "description": "Aplikasi Laporan Sikawan Harian dan Bulanan SD Negeri Babelan Kota 01 Tahun 2026 dengan integrasi database Google Sheets dan penyimpanan Google Drive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,102 @@
+import { Guru, LaporanSikawan } from '../types';
+
+export const INITIAL_GURU_LIST: Guru[] = [
+  {
+    id: 'guru-1',
+    nama: 'Hj. Siti Rohmah, M.Pd.',
+    nip: '197105121996032003',
+    jabatan: 'Kepala Sekolah',
+    golongan: 'Pembina Tk. I (IV/b)',
+    statusKepegawaian: 'PNS',
+    email: 'gurukeren.bakot01@gmail.com',
+  },
+  {
+    id: 'guru-2',
+    nama: 'Ahmad Fauzi, S.Pd.',
+    nip: '198204152009021004',
+    jabatan: 'Guru Kelas VI-A',
+    golongan: 'Penata Tk. I (III/d)',
+    statusKepegawaian: 'PNS',
+    mataPelajaran: 'Tematik & Literasi Numerasi',
+  },
+  {
+    id: 'guru-3',
+    nama: 'Endah Suryani, S.Pd.SD.',
+    nip: '198608242014032002',
+    jabatan: 'Guru Kelas V-A',
+    golongan: 'Penata (III/c)',
+    statusKepegawaian: 'PNS',
+    mataPelajaran: 'Tematik Terpadu',
+  },
+  {
+    id: 'guru-4',
+    nama: 'Bambang Trianto, S.Pd.',
+    nip: '199002102020121008',
+    jabatan: 'Guru Pendidikan Jasmani (PJOK)',
+    golongan: 'Penata Muda Tk. I (III/b)',
+    statusKepegawaian: 'PNS',
+    mataPelajaran: 'PJOK',
+  },
+  {
+    id: 'guru-5',
+    nama: 'Ustadz Muhammad Arifin, S.Pd.I.',
+    nip: '198811032022211005',
+    jabatan: 'Guru Pendidikan Agama Islam (PAI)',
+    golongan: 'IX',
+    statusKepegawaian: 'PPPK',
+    mataPelajaran: 'Pendidikan Agama Islam & BP',
+  },
+  {
+    id: 'guru-6',
+    nama: 'Nurul Hidayati, S.Pd.',
+    nip: '199407182023212019',
+    jabatan: 'Guru Kelas IV-B',
+    golongan: 'IX',
+    statusKepegawaian: 'PPPK',
+    mataPelajaran: 'Tematik Kurikulum Merdeka',
+  },
+  {
+    id: 'guru-7',
+    nama: 'Rina Marlina, S.Pd.',
+    nip: '199201052024212033',
+    jabatan: 'Guru Kelas III-A',
+    golongan: 'IX',
+    statusKepegawaian: 'PPPK',
+    mataPelajaran: 'Tematik Terpadu',
+  },
+  {
+    id: 'guru-8',
+    nama: 'Dedi Kurniawan, S.Kom.',
+    nip: '199512192024211012',
+    jabatan: 'Operator Sekolah & Administrasi',
+    golongan: 'VII',
+    statusKepegawaian: 'PPPK',
+    mataPelajaran: 'Teknologi Informasi & Data Dapodik',
+  },
+  {
+    id: 'guru-9',
+    nama: 'Dewi Lestari, S.Pd.',
+    nip: '199703142025212007',
+    jabatan: 'Guru Kelas I-A',
+    golongan: 'Honorer',
+    statusKepegawaian: 'Honorer',
+    mataPelajaran: 'Fondasi Literasi & Transisi PAUD-SD',
+  }
+];
+
+export const INITIAL_RIWAYAT_LIST: LaporanSikawan[] = [];
+
+export const DAFTAR_BULAN_2026 = [
+  { value: '2026-01', label: 'Januari 2026' },
+  { value: '2026-02', label: 'Februari 2026' },
+  { value: '2026-03', label: 'Maret 2026' },
+  { value: '2026-04', label: 'April 2026' },
+  { value: '2026-05', label: 'Mei 2026' },
+  { value: '2026-06', label: 'Juni 2026' },
+  { value: '2026-07', label: 'Juli 2026' },
+  { value: '2026-08', label: 'Agustus 2026' },
+  { value: '2026-09', label: 'September 2026' },
+  { value: '2026-10', label: 'Oktober 2026' },
+  { value: '2026-11', label: 'November 2026' },
+  { value: '2026-12', label: 'Desember 2026' },
+];
